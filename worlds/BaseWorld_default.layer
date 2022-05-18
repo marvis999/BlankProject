@@ -1,0 +1,49 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 1.543 -0 1.346
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 1.309 0 1.451
+}
+SCR_BaseGameMode GameMode_Base1 : "{0F307326459A1395}Prefabs/MP/Modes/GameMode_Base.et" {
+ components {
+  SCR_PlayerSpawnPointManagerComponent "{5964FAAD25BDF758}" {
+   m_SpawnPointPrefab "{F6CAD21EDD2D1964}Prefabs/MP/Spawning/PlayerSpawnPoint.et"
+  }
+  SCR_RespawnHandlerComponent "{5964FAACD535625C}" {
+  }
+ }
+ coords -0.013 0 -1.028
+}
+TagManager : "{2FA9E172CAB1857A}Prefabs/MP/Managers/TagManager.et" {
+ coords 1.059 0 0.116
+}
+SCR_PlayerController DefaultPlayerController1 : "{6E2BB64764E3BE9B}Prefabs/Characters/Core/DefaultPlayerController.et" {
+ coords 3932.851 7.732 10765.619
+}
+RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Radio/RadioManager.et" {
+ coords 1.665 0 1.482
+}
+ScriptedChatEntity : "{F69BC912AC8236F9}Prefabs/MP/ScriptedChatEntity.et" {
+ coords 1.076 0 1.337
+}
+HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
+ coords 0.48 0 1.952
+}
+BasePreloadManager PreloadManager2 : "{104F8505FD1871EF}Prefabs/World/Game/PreloadManager.et" {
+ coords 1.151 0 1.554
+}
+SCR_MusicManager : "{359452CCDBDD03F5}Prefabs/Sounds/Music/MusicManager_Base.et" {
+ coords 1.775 0 1.396
+}
+GarbageManager : "{9B883A7D8EBB282A}Prefabs/MP/Managers/GarbageManager.et" {
+ coords 0.955 0 0.686
+}
+SCR_MPDestructionManager : "{9BB369F2803C6F71}Prefabs/MP/MPDestructionManager.et" {
+ coords -0.125 0 1.597
+}
+SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutManager_Base.et" {
+ coords 0.525 0 -0.816
+}
+SCR_PlayerSpawnPoint : "{F6CAD21EDD2D1964}Prefabs/MP/Spawning/PlayerSpawnPoint.et" {
+ coords 3932.722 8.041 10763.465
+}
